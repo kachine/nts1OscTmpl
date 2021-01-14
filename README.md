@@ -21,3 +21,7 @@ Then, simply type "make" to build this project.
 ```sh
 $ make
 ```
+
+
+---
+The names of products or companies are the trademarks or registered trademarks of their respective companies. These companies have no relation to this project.
