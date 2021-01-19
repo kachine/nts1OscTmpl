@@ -97,7 +97,7 @@ void OSC_PARAM(uint16_t index, uint16_t value)
       // Choose this param by pressing OSC and tweaking TYPE knob, then input by B knob
       VOICE.waveformType = (uint8_t) value;
       break;
-    case k_user_osc_param_id2: // OP2(Modulator) level (0-100)
+    case k_user_osc_param_id2: // Output level (0-100)
       // Choose this param by pressing OSC and tweaking TYPE knob, then input by B knob
       VOICE.levelRatio = (float) value / MAX_PARAM;
       break;
